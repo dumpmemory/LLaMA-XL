@@ -1,9 +1,7 @@
-## LLaMA-XL: LLaMA model Beyond Length Limitation 
+## LLaMA-XL: LLaMA-based model Beyond Length Limitation 
 
-[1] found that RoPE plus bias can make a good long length generalization. Here, we freeze most of LLaMA parameters and train a bias adapter to improve the max length performance. 
-
+This repository tries to use recurrent memory to make dialogue consistency over 100 turns for LLaMA-based models. 
 
 
 ## Reference 
-[1] https://spaces.ac.cn/archives/9577 
-
+[1] https://github.com/facebookresearch/llama
